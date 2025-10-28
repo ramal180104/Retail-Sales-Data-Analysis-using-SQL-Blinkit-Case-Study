@@ -43,7 +43,7 @@ It covers database creation, data cleaning, and SQL-based analysis to understand
  1. **Clone this repository:**
    ```bash
    git clone https://github.com/ramal180104/Retail-Sales-Data-Analysis-using-SQL-Blinkit-Case-Study.git
- 2. **Open MySQL and execute:**
-   SOURCE blinkitdb.sql;
-   SOURCE queries.sql;
-3. View the results and modify queries as needed.
+ 2. Open MySQL and execute:
+
+SOURCE blinkitdb.sql;
+SOURCE queries.sql
