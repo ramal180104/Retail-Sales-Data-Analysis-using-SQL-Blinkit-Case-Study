@@ -1,30 +1,35 @@
-# Retail Sales Data Analysis using SQL (Blinkit Case Study)
+🛒 Retail Sales Data Analysis using SQL (Blinkit Case Study)
+📋 Project Overview
 
-This project focuses on analyzing Blinkit's retail sales data using SQL.  
-The goal is to uncover business insights such as sales performance, outlet establishment trends, product visibility, and item type analysis.
+This project analyzes Blinkit’s retail sales data using MySQL to uncover key business insights such as outlet performance, product visibility, and customer preferences.
+It demonstrates end-to-end data cleaning, database creation, and SQL-based analytics to support data-driven decision-making.
 
-##  Project Overview
-- Performed data cleaning and preparation of Blinkit dataset.  
-- Created SQL database and tables to store sales data.  
-- Executed analytical SQL queries to identify sales patterns and key metrics.  
-- Derived insights to support data-driven business decisions.
+🎯 Objectives
 
-##  Tools Used
-- **MySQL** for data analysis  
-- **Excel / CSV** for data storage  
-- **GitHub** for version control
+Clean and prepare raw retail sales data for analysis
 
-##  Key Insights
-- Relationship between item visibility and sales.  
-- Impact of outlet size and type on overall revenue.  
-- Sales trend based on item fat content and product category.
+Design and populate a MySQL database (blinkitdb)
 
-##  Files in This Repository
-- `blinkit_data_clean.csv` — Cleaned dataset used for analysis.  
-- `blinkitdb.sql` — SQL script for database and table creation.  
-- `queries.sql` — SQL queries used for analysis.  
+Analyze sales performance across outlets, item types, and locations
 
-##  Learning Outcomes
-- Improved SQL querying and data cleaning skills.  
-- Strengthened understanding of retail data analysis.  
-- Gained experience managing and sharing SQL projects on GitHub.
+Generate key performance indicators (KPIs) using SQL queries
+
+Derive insights for improving sales and operational strategies
+
+🧰 Tools & Technologies
+
+Database: MySQL
+
+Query Language: SQL
+
+Data Source: Blinkit retail sales dataset
+
+Version Control: Git & GitHub
+
+Data Cleaning: Excel / Python (pre-processed CSV file)
+🗂️ Project Structure
+File	Description
+blinkitdb.sql	Creates the database, table, and loads cleaned data
+blinkit_data_clean.csv	Cleaned dataset used for analysis
+queries.sql	Contains all KPI and business insights queries
+README.md	Project overview and documentation
